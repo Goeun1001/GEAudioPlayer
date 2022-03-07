@@ -6,5 +6,5 @@ target 'Demo' do
   use_frameworks!
 
   # Pods for Demo
-
+    pod 'GEAudioPlayer', '0.0.2'
 end

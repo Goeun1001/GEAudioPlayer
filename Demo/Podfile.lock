@@ -1,0 +1,16 @@
+PODS:
+  - GEAudioPlayer (0.0.2)
+
+DEPENDENCIES:
+  - GEAudioPlayer (= 0.0.2)
+
+SPEC REPOS:
+  trunk:
+    - GEAudioPlayer
+
+SPEC CHECKSUMS:
+  GEAudioPlayer: 694768614f1c5952612db0def12c6b6477aca046
+
+PODFILE CHECKSUM: 0bce54fd955b7116b5cc20321ce1bc865af95c6b
+
+COCOAPODS: 1.11.2

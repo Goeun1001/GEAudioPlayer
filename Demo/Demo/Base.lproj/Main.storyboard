@@ -33,42 +33,16 @@
                                     <action selector="playButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VaH-VB-ov8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEi-M4-beN">
-                                <rect key="frame" x="73" y="437.5" width="57" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:03" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNT-yt-4XK">
-                                <rect key="frame" x="295" y="437.5" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="61h-RG-upM">
-                                <rect key="frame" x="71" y="378" width="272" height="31"/>
-                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="61h-RG-upM" firstAttribute="trailing" secondItem="xNT-yt-4XK" secondAttribute="trailing" id="6eB-Gu-CEP"/>
                             <constraint firstItem="Jj9-fa-r5o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fk0-t9-UEV"/>
-                            <constraint firstItem="61h-RG-upM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KbC-Qy-HFI"/>
-                            <constraint firstItem="xNT-yt-4XK" firstAttribute="leading" secondItem="Jj9-fa-r5o" secondAttribute="trailing" constant="73" id="Ute-nf-hYf"/>
-                            <constraint firstItem="Jj9-fa-r5o" firstAttribute="leading" secondItem="GEi-M4-beN" secondAttribute="trailing" constant="62" id="VIK-2w-b8P"/>
-                            <constraint firstItem="61h-RG-upM" firstAttribute="leading" secondItem="GEi-M4-beN" secondAttribute="leading" id="WF0-4g-S6D"/>
-                            <constraint firstItem="Jj9-fa-r5o" firstAttribute="top" secondItem="61h-RG-upM" secondAttribute="bottom" constant="25" id="bwF-Zo-L3F"/>
-                            <constraint firstItem="GEi-M4-beN" firstAttribute="centerY" secondItem="Jj9-fa-r5o" secondAttribute="centerY" id="fuP-GH-cX3"/>
-                            <constraint firstItem="xNT-yt-4XK" firstAttribute="centerY" secondItem="Jj9-fa-r5o" secondAttribute="centerY" id="p7R-Lv-2zk"/>
                             <constraint firstItem="Jj9-fa-r5o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rCn-b7-6Qt"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="currentTimeLabel" destination="GEi-M4-beN" id="Asa-v9-Biq"/>
-                        <outlet property="endTimeLabel" destination="xNT-yt-4XK" id="Z0q-hV-uZf"/>
                         <outlet property="playButton" destination="Jj9-fa-r5o" id="9qa-gl-vox"/>
-                        <outlet property="progressSlider" destination="61h-RG-upM" id="gM9-YP-RKA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

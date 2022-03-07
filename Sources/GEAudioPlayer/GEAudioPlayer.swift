@@ -17,7 +17,7 @@ public protocol GEAudioPlayerDelegate: AnyObject {
 }
 
 public final class GEAudioPlayer {
-    public let shared = GEAudioPlayer()
+    public static let shared = GEAudioPlayer()
     public var delegate: GEAudioPlayerDelegate?
     
     private var player: AVPlayer?

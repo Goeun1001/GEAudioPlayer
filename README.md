@@ -17,48 +17,24 @@ A sample audio player for tutorial
 
 
 
-## Usage
-
-```swift
-struct ContentView: View {
-    @State var date: Date? = Date()
-    var body: some View {
-        GECalendar(selectedDate: $date, appearance: Appearance())
-    }
-}
-```
-
-```swift
-struct ContentView: View {
-    @State var date: Date? = Date()
-    var body: some View {
-        GEWeekView(selectedDate: $date, appearance: Appearance())
-    }
-}
-```
-
-You can manage settings with GECalendar's [Appearance](https://github.com/Goeun1001/GECalendar/blob/master/Sources/GECalendar/Shared/Appearance.swift).
-
-
-
 ## Installation
 
 ### CocoaPods
 
 ```
-pod 'GECalendar'
+pod 'GEAudioPlayer', '0.1.0'
 ```
 
 ### Carthage
 
 ```
-github "Goeun1001/GECalendar"
+github "Goeun1001/GEAudioPlayer"
 ```
 
 ### SPM
 
 ```
-.package(url: "https://github.com/Goeun1001/GECalendar.git", from: "1.0.0")
+.package(url: "https://github.com/Goeun1001/GEAudioPlayer.git", from: "0.1.0")
 ```
 
 
