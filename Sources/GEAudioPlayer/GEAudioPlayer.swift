@@ -2,6 +2,13 @@ import Foundation
 import AVFoundation
 
 #if os(iOS)
+public protocol GEAudioPlayerDelegate {
+    func audioTimeDidChange(seconds: Int)
+    func audioDidEnd()
+    func audioDidInterruptStart()
+    func audioDidInterruptEnd()
+}
+
 public final class GEAudioPlayer {
     public let shared = GEAudioPlayer()
     public var delegate = GEAudioPlayerDelegate?
@@ -79,13 +86,6 @@ public final class GEAudioPlayer {
             }
         }
     }
-}
-
-public protocol GEAudioPlayerDelegate {
-    func audioTimeDidChange(seconds: Int)
-    func audioDidEnd()
-    func audioDidInterruptStart()
-    func audioDidInterruptEnd()
 }
 
 #endif
